@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a[href="/sign-up"],
+.dashboardHome {
+  color: white;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* Layout styling */
+
+.layout .side-links {
+  width: 15%;
+}
+
+.layout .layout-content {
+  width: 85%;
+}

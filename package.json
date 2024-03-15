@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && npm install --force --prefix frontend && npm run build --prefix frontend",
     "start": "node backend/app.js",
     "dev": "nodemon backend/app.js"
   },

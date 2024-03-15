@@ -1,10 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  employees: [
-    { id: 1, name: 'Glover', role: 'Lounge Inspector', manager: 'Reese', department: 'Lounge', status: 'Active' },
-    { id: 2, name: 'Troy', role: 'Office Inspector', manager: 'Kante', department: 'Floor', status: 'Active' },
-  ],
+  // employees: [
+  //   { id: 1, name: 'Glover', role: 'Lounge Inspector', manager: 'Reese', department: 'Lounge', status: 'Active' },
+  //   { id: 2, name: 'Troy', role: 'Office Inspector', manager: 'Kante', department: 'Floor', status: 'Active' },
+  // ],
 }
 
 const employeeSlice = createSlice({
